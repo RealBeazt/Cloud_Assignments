@@ -92,4 +92,108 @@ systemctl may be used to introspect and control the state of the "systemd" syste
 
 ```
 passwd [options] [LOGIN]
-```des
+```
+
+**Description**
+
+The passwd command changes passwords for user accounts. A normal user may only change the password for their own account, while the superuser may change the password for any account.  passwd also changes the account or associated password validity period.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/769a895f-f006-43bf-9dca-307dbe066bf1)
+
+---
+
+### 8. echo - display a line of text
+
+```
+echo [SHORT-OPTION]... [STRING]...
+
+echo LONG-OPTION
+```
+
+**Description**
+
+Echo the STRING(s) to standard output.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/224a3ef1-ae9d-4863-9815-90deed0a7161)
+
+---
+
+### 9. base64 - base64 encode/decode data and print to standard output
+
+```
+base64 [OPTION]... [FILE]
+```
+
+**Description**
+
+Base64 encode or decode FILE, or standard input, to standard output. With no FILE, or when FILE is -, read standard input.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/3d1dd124-1d08-4ee7-a7f0-8ee812c7520d)
+
+---
+
+### 10. grep, egrep, fgrep, rgrep - print lines that match patterns
+
+```
+grep [OPTION...] PATTERNS [FILE...]
+
+grep [OPTION...] -e PATTERNS ... [FILE...]
+
+grep [OPTION...] -f PATTERN_FILE ... [FILE...]
+```
+
+**Description**
+
+grep  searches  for  PATTERNS  in  each  FILE.   PATTERNS is one or more patterns separated by newline characters, and grep prints each line that matches a pattern.  Typically  PATTERNS  should  be  quoted when grep is used in a shell command.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/fd3a0fa1-d1af-4010-a7a0-c72c9a1aab56)
+
+---
+
+### 11. who - show who is logged on
+
+```
+who [OPTION]... [ FILE | ARG1 ARG2 ]
+```
+
+**Description**
+
+Print information about users who are currently logged in.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/43a2f04e-01e9-4046-b982-5016bf2d20c3)
+
+---
+
+### 12. whoami - print effective user name
+
+```
+whoami [OPTION]...
+```
+
+**Description**
+
+Print the user name associated with the current effective user ID.  Same as id -un.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/91113c8f-7f75-44a5-8cfa-edc8473c1035)
+
+---
+
+### 13. ssh — OpenSSH remote login client
+
+```
+ssh    [-46AaCfGgKkMNnqsTtVvXxYy]    [-B    bind_interface]   [-b   bind_address]   [-c   cipher_spec]
+           [-D  [bind_address:]port]  [-E  log_file]   [-e   escape_char]   [-F   configfile]   [-I   pkcs11]
+           [-i  identity_file]  [-J  destination]  [-L  address]  [-l  login_name] [-m mac_spec] [-O ctl_cmd]
+           [-o option] [-P tag] [-p port]  [-Q  query_option]  [-R  address]  [-S  ctl_path]  [-W  host:port]
+           [-w local_tun[:remote_tun]] destination [command [argument ...]]
+```
+
+**Description**
+
+ssh (SSH client) is a program for logging into a remote machine and for executing commands on a remote machine.   It  is intended to provide secure encrypted communications between two untrusted hosts over an insecure network.  X11 connections, arbitrary TCP ports and Unix-domain sockets can  also  be  for‐ warded over the secure channel.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/8c89ace1-2cd8-4523-aec1-5d52511ce27e)
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/5ae6c278-0477-4d04-a0aa-23881ec65d67)
+
+---
