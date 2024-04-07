@@ -144,9 +144,7 @@ Base64 encode or decode FILE, or standard input, to standard output. With no FIL
 
 ```
 grep [OPTION...] PATTERNS [FILE...]
-
 grep [OPTION...] -e PATTERNS ... [FILE...]
-
 grep [OPTION...] -f PATTERN_FILE ... [FILE...]
 ```
 
@@ -210,7 +208,6 @@ ssh (SSH client) is a program for logging into a remote machine and for executin
 
 ```
 ifconfig [-v] [-a] [-s] [interface]
-
 ifconfig [-v] interface [aftype] options | address ...
 ```
 
@@ -274,9 +271,7 @@ apt provides a high-level commandline interface for the package management syste
 
 ```
 mv [OPTION]... [-T] SOURCE DEST
-
 mv [OPTION]... SOURCE... DIRECTORY
-
 mv [OPTION]... -t DIRECTORY SOURCE...
 ```
 
@@ -292,9 +287,7 @@ Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
 
 ```
 cp [OPTION]... [-T] SOURCE DEST
-
 cp [OPTION]... SOURCE... DIRECTORY
-
 cp [OPTION]... -t DIRECTORY SOURCE...
 ```
 
@@ -310,11 +303,8 @@ Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
 ```
 ln [OPTION]... [-T] TARGET LINK_NAME
-
 ln [OPTION]... TARGET
-
 ln [OPTION]... TARGET... DIRECTORY
-
 ln [OPTION]... -t DIRECTORY TARGET...
 ```
 
@@ -372,15 +362,10 @@ Create the DIRECTORY(ies), if they do not already exist.
 
 ```
 man [man options] [[section] page ...] ...
-
 man -k [apropos options] regexp ...
-
 man -K [man options] [section] term ...
-
 man -f [whatis options] page ...
-
 man -l [man options] file ...
-
 man -w|-W [man options] page ...
 ```
 
@@ -425,9 +410,7 @@ Print the last 10 lines of each FILE to standard output.  With more than one FIL
 
 ```
 chmod [OPTION]... MODE[,MODE]... FILE...
-
 chmod [OPTION]... OCTAL-MODE FILE...
-
 chmod [OPTION]... --reference=RFILE FILE...
 ```
 
@@ -471,9 +454,7 @@ GNU Wget is a free utility for non-interactive download of files from the Web.  
 
 ```
 gzip [ -acdfhklLnNrtvV19 ] [-S suffix] [ name ...  ]
-
 gunzip [ -acfhklLnNrtvV ] [-S suffix] [ name ...  ]
-
 zcat [ -fhLV ] [ name ...  ]
 ```
 
