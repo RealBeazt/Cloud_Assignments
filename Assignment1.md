@@ -1,8 +1,7 @@
 # Assignment - 1
 ## Study Linux Commands
 
-> Name: Aman Narnaware
-
+> Name: Aman Narnaware \n
 > Roll: 322005
 
 > PRN: 22110404
