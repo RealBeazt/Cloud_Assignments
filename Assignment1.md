@@ -114,7 +114,6 @@ The passwd command changes passwords for user accounts. A normal user may only c
 
 ```
 echo [SHORT-OPTION]... [STRING]...
-
 echo LONG-OPTION
 ```
 
@@ -223,7 +222,6 @@ Ifconfig  is used to configure the kernel-resident network interfaces.  It is us
 
 ```
 ip [ OPTIONS ] OBJECT { COMMAND | help }
-
 ip [ -force ] -batch filename
 ```
 
