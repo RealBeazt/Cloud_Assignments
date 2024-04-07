@@ -392,3 +392,95 @@ man  is the system's manual pager.  Each page argument given to man is normally 
 > man ls
 
 ---
+
+### 25. head - output the first part of files
+
+```
+head [OPTION]... [FILE]...
+```
+
+**Description**
+
+Print  the first 10 lines of each FILE to standard output.  With more than one FILE, precede each with a header giving the file name.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/e7b26db8-6564-4fe4-b1f4-c7444648885b)
+
+---
+
+### 26. tail - output the last part of files
+
+```
+tail [OPTION]... [FILE]...
+```
+
+**Description**
+
+Print the last 10 lines of each FILE to standard output.  With more than one FILE, precede each with a header giving the file name.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/fea61367-e251-4887-91ef-cc64092d239a)
+
+---
+
+### 27. chmod - change file mode bits
+
+```
+chmod [OPTION]... MODE[,MODE]... FILE...
+
+chmod [OPTION]... OCTAL-MODE FILE...
+
+chmod [OPTION]... --reference=RFILE FILE...
+```
+
+**Description**
+
+chmod changes the file mode bits of each given file according to mode, which can be either a symbolic representation of changes to make, or an  octal number representing the bit pattern for the new mode bits.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/92005332-f311-4cee-9d23-1a9ff9ab3806)
+
+---
+
+### 28. pwd - print name of current/working directory
+
+```
+pwd [OPTION]...
+```
+
+**Description**
+
+Print the full filename of the current working directory.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/68c37281-8093-41ff-b9e2-1de5f8f2181c)
+
+---
+
+### 29. Wget - The non-interactive network downloader.
+
+```
+wget [option]... [URL]...
+```
+
+**Description**
+
+GNU Wget is a free utility for non-interactive download of files from the Web.  It supports HTTP, HTTPS, and FTP protocols, as well as retrieval through HTTP proxies.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/e2afa823-cd36-486c-a9bf-eafb7c53fc7d)
+
+---
+
+### 30. gzip, gunzip, zcat - compress or expand files
+
+```
+gzip [ -acdfhklLnNrtvV19 ] [-S suffix] [ name ...  ]
+
+gunzip [ -acfhklLnNrtvV ] [-S suffix] [ name ...  ]
+
+zcat [ -fhLV ] [ name ...  ]
+```
+
+**Description**
+
+The  gzip command reduces the size of the named files using Lempel-Ziv coding (LZ77).  Whenever possi‐ ble, each file is replaced by one with the extension .gz, while keeping the same ownership modes,  ac‐ cess  and  modification  times.   (The  default extension is z for MSDOS, OS/2 FAT, Windows NT FAT and Atari.)  If no files are specified, or if a file name is "-", the standard input is compressed to  the standard  output.   The  gzip  command will only attempt to compress regular files.  In particular, it will ignore symbolic links.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/db4db0fc-0e78-4143-84ae-adec1c980538)
+
+---
