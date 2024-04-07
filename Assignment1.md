@@ -87,3 +87,9 @@ systemctl may be used to introspect and control the state of the "systemd" syste
 ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/5ea50517-5fa4-472a-9b83-8d6b96c4e16c)
 
 ---
+
+### 7. passwd - change user password
+
+```
+passwd [options] [LOGIN]
+```des
