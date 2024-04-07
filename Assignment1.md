@@ -46,3 +46,44 @@ The  types  of system summary information shown and the types, order and size of
 ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/f5a1e19d-2db0-44bd-874a-6b3201bf5ffa)
 
 ---
+
+### 4. ls - list directory contents
+
+```
+ls [OPTION]... [FILE]...
+```
+
+**Description**
+
+List  information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/33b1c621-bfb8-4513-86b6-5dd2789f1a3b)
+
+---
+
+### 5. clear - clear the terminal screen
+
+```
+clear [-x] [-T type]
+```
+
+**Description**
+
+clear  clears  your terminal's screen and its scrollback buffer, if any.  clear retrieves the terminal type from the environment variable TERM, then consults the terminfo terminal capability database entry for that type to determine how to perform these actions.
+
+
+---
+
+### 6. systemctl - Control the systemd system and service manager
+
+```
+systemctl [OPTIONS...] COMMAND [UNIT...]
+```
+
+**Description**
+
+systemctl may be used to introspect and control the state of the "systemd" system and service manager.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/5ea50517-5fa4-472a-9b83-8d6b96c4e16c)
+
+---
