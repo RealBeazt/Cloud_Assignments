@@ -16,7 +16,7 @@ With no FILE, or when FILE is -, read standard input.
 
 ---
 
-### 2. touch - change file timestamps, if file does not exist create one
+### 2. touch - change file timestamps
 
 ```
 touch [OPTION]... FILE...
@@ -33,4 +33,11 @@ A FILE argument that does not exist is created empty, unless -c or -h is supplie
 
 ### 3. top - display linux processes
 
+```
+top [options]
+```
 
+**Description**
+
+The  top program provides a dynamic real-time view of a running system.  It can display system summary information as well as a list of processes or threads currently being managed  by  the  Linux  kernel.
+The  types  of system summary information shown and the types, order and size of information displayed for processes are all user configurable and that configuration can be made persistent across restarts.
