@@ -6,8 +6,9 @@
 ```
 cat [OPTION]... [FILE]...
 ```
----
+
 **Description**
+
 Concatenate FILE(s) to standard output.
 With no FILE, or when FILE is -, read standard input.
 
