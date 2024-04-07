@@ -326,3 +326,69 @@ In  the  1st form, create a link to TARGET with the name LINK_NAME.  In the 2nd 
 
 ---
 
+### 21. rm - remove files or directories
+
+```
+rm [OPTION]... [FILE]...
+```
+
+**Description**
+
+rm removes each specified file.  By default, it does not remove directories.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/36c4424b-4d74-4d04-bab8-a7811a83b7fe)
+
+---
+
+### 22. rmdir - remove empty directories
+
+```
+rmdir [OPTION]... DIRECTORY...
+```
+
+**Description**
+
+Remove the DIRECTORY(ies), if they are empty.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/3260d048-330b-43df-917a-7ca227f5263b)
+
+---
+
+### 23. mkdir - make directories
+
+```
+mkdir [OPTION]... DIRECTORY...
+```
+
+**Description**
+
+Create the DIRECTORY(ies), if they do not already exist.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/80992be9-b7c2-4f25-bd19-e747870a9503)
+
+---
+
+### 24. man - an interface to the system reference manuals
+
+```
+man [man options] [[section] page ...] ...
+
+man -k [apropos options] regexp ...
+
+man -K [man options] [section] term ...
+
+man -f [whatis options] page ...
+
+man -l [man options] file ...
+
+man -w|-W [man options] page ...
+```
+
+**Description**
+
+man  is the system's manual pager.  Each page argument given to man is normally the name of a program, utility or function.  The manual page associated with each of these arguments is then found  and  dis‐ played.   A section, if provided, will direct man to look only in that section of the manual.  The de‐ fault action is to search in all of the available sections following  a  pre-defined  order  (see  DE‐ FAULTS), and to show only the first page found, even if page exists in several sections.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/4d945051-6ede-43e0-a4c4-5ecec08cfedc)
+> man ls
+
+---
