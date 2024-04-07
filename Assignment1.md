@@ -1,7 +1,7 @@
 # Assignment - 1
 ## Study Linux Commands
 
-## 1. cat - concatenate files and print on the standard output
+### 1. cat - concatenate files and print on the standard output
 
 ```
 cat [OPTION]... [FILE]...
