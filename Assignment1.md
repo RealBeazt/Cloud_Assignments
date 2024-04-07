@@ -40,4 +40,9 @@ top [options]
 **Description**
 
 The  top program provides a dynamic real-time view of a running system.  It can display system summary information as well as a list of processes or threads currently being managed  by  the  Linux  kernel.
+
 The  types  of system summary information shown and the types, order and size of information displayed for processes are all user configurable and that configuration can be made persistent across restarts.
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/f5a1e19d-2db0-44bd-874a-6b3201bf5ffa)
+
+---
