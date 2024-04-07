@@ -5,6 +5,8 @@
 >
 >Roll: 322005
 >
+>Batch: B1
+>
 >PRN: 22110404
 
 ### 1. cat - concatenate files and print on the standard output
