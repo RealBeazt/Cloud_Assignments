@@ -10,6 +10,7 @@
 >PRN: 22110404
 
 1. What is Shell (Linux kernel architecture diagram)
+```
 +------------------------+ 
 |         Shell          |      <-- Command interpreter and user interface 
 +------------------------+ 
@@ -21,3 +22,4 @@
 +------------------------+ 
 |       Hardware         |      <-- Physical computer hardware 
 +------------------------+ 
+```
