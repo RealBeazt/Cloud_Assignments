@@ -102,8 +102,41 @@ if [ "$disk_usage" -gt "$threshold" ]; then
 fi
 
 ```
-For Corntab
+For Crontab
 
 ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/9aebde10-edbc-42fd-b7bd-26aa693f86a1)
+
+---
+
+### 3. write a shell script to take mysql database server backup. This script should run weekly on every sunday at 11:00 PM.
+
+```
+#!/bin/bash
+
+# MySQL database information
+db_user="root"
+db_password="amanNBEAST8"
+db_name="test"
+
+# Backup directory
+backup_dir="/home/aman/Desktop/Aman/Assignment2/backups"
+
+# Date stamp for backup file
+backup_date=$(date +%Y%m%d)
+
+# MySQL dump command
+mysqldump_cmd="mysqldump -u $db_user -p$db_password $db_name > $backup_dir/$db_name-$backup_date.sql"
+
+# Execute MySQL dump command
+eval "$mysqldump_cmd"
+
+```
+For crontab
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/81f9c245-9381-4b6b-a8cb-a7419b0a41c2)
+
+**Output**
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/3e9cbcef-9e6e-4295-bc94-25e5b618a3f5)
 
 ---
