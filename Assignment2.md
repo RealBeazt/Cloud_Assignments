@@ -55,6 +55,55 @@ else
 fi
 ```
 
+**Output**
+
 ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/12108a44-151e-4f51-971f-470e29a8284e)
+
+---
+
+### 2b) Write a shell script to install any particular software (ex: java or python)
+
+```
+#!/bin/bash
+
+sudo apt update
+
+# Install Python (assuming apt package manager, use yum if any other linux distro)
+sudo apt install python3
+```
+
+**Output**
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/616ac009-4eab-4ff0-96b4-d4b09bd192e9)
+
+---
+
+### 2c) Write a shell script to check disk usage of the system and if disk usage is more than 90% it should send an email to system admin. This script should run everyday at 8:00 AM.
+
+```
+#!/bin/bash
+
+# Set threshold for disk usage (90%)
+threshold=90
+
+# Get disk usage percentage for the root filesystem
+disk_usage=$(df / | awk 'NR==2 {print $5}' | sed 's/%//')
+
+# Check if disk usage is above the threshold
+if [ "$disk_usage" -gt "$threshold" ]; then
+    # Email subject
+    subject="Disk usage alert on $(hostname)"
+    
+    # Email body
+    message="Disk usage on $(hostname) is above $threshold%. Current usage: $disk_usage%."
+
+    # Send email to system admin
+    echo "$message" | mail -s "$subject" amannarnaware8@gmail.com
+fi
+
+```
+For Corntab
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/9aebde10-edbc-42fd-b7bd-26aa693f86a1)
 
 ---
