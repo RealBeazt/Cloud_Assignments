@@ -44,4 +44,17 @@ e. **Z Shell (zsh):** Zsh is an extended Bourne Shell with additional features f
 
 ### 2a) Write a shell script to check user is root user or not
 
+```
+#!/bin/bash
 
+# Check if the user is root
+if [ "$(id -u)" = "0" ]; then
+    echo "You are the root user."
+else
+    echo "You are not the root user."
+fi
+```
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/12108a44-151e-4f51-971f-470e29a8284e)
+
+---
