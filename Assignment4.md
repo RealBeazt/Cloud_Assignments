@@ -39,9 +39,37 @@ Amazon Simple Storage Service (S3) is a widely-used object storage service provi
 
     ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/da4a25b1-0088-454d-99bc-f77f6267de4b)
 
--  Select the created bucket and in properties find 'Static website hosting' and enable it.
+-  Select the created bucket and in properties find 'Static website hosting' and enable it. Enter the index document (usually "index.html") and error document if you have one.
 
     ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/d324c7e0-d989-4c10-bb27-a686d7803f3f)
 
+-  Select your created bucket from the bucket list and upload the necessary file(s) for the website. Make sure that the index documnent is in the root directory.
+
+   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/24b82736-c8e0-492a-8ad8-c7c470dd4639)
+
+   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ebfbccbc-d1d6-482e-8a0b-ad7dbaaea8f2)
+
+
+-  Next step is to create a bucket policy to allow traffic to the website. You can use [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html) to create policies or visit [Amazon Documentation](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-policy-language-overview.html?icmpid=docs_amazons3_console).
+
+```
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::mys3bucketassignment4/*"
+		}
+	]
+}
+```
+You can get your ARN from the properties in the bucket list.
+
+   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/434d45d4-ab49-4b73-80bb-47cc5b42ff76)
+
+Save Changes.
 
 
