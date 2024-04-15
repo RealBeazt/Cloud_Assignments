@@ -1,5 +1,5 @@
 # Assignment - 4
-## Shell Scripting
+## Deploy static Web application using AWS S3 service 
 
 >Name: Aman Narnaware
 >
@@ -80,5 +80,5 @@ Save Changes.
 
 Your static website is now hosted on Amazon S3 and accessible via the internet !!
 
-
+---
 
