@@ -68,8 +68,17 @@ Amazon Simple Storage Service (S3) is a widely-used object storage service provi
 ```
 You can get your ARN from the properties in the bucket list.
 
-   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/434d45d4-ab49-4b73-80bb-47cc5b42ff76)
+   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/d5b40989-525c-46df-858a-5048a91ec5a2)
 
 Save Changes.
+
+
+-  Once you've set up everything, you can access your website using the endpoint provided in the "Static website hosting" in the bucket properties. It will look something like this: http://mys3bucketassignment4.s3-website.ap-south-1.amazonaws.com
+
+   ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/2c8cf9c3-8f81-4835-820d-1589325547bb)
+
+
+Your static website is now hosted on Amazon S3 and accessible via the internet !!
+
 
 
