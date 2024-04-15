@@ -25,6 +25,23 @@ Amazon Simple Storage Service (S3) is a widely-used object storage service provi
 
 ### 2) Step-by-step screenshot to upload static web application on the AWS cloud using S3 service
 
-- Login to AWS console and select S3 Service
+-  Login to AWS console and select S3 Service.
   
-  ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ab7b1146-332e-426a-a0fb-488c1b5f3a9b)
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ab7b1146-332e-426a-a0fb-488c1b5f3a9b)
+
+-  Select Create a Bucket.
+
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/57a0af95-009e-4411-9b74-f95e1a1e5c42)
+
+-  Name the bucket and unselect 'Block all public access' and create bucket.
+
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/62ee429b-c4a7-40c8-b68c-294db9ec16c0)
+
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/da4a25b1-0088-454d-99bc-f77f6267de4b)
+
+-  Select the created bucket and in properties find 'Static website hosting' and enable it.
+
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/d324c7e0-d989-4c10-bb27-a686d7803f3f)
+
+
+
