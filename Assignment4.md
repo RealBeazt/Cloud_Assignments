@@ -1,4 +1,4 @@
-# Assignment - 2
+# Assignment - 4
 ## Shell Scripting
 
 >Name: Aman Narnaware
@@ -21,3 +21,8 @@ Amazon Simple Storage Service (S3) is a widely-used object storage service provi
 
 **Performance**: S3 is designed for high performance. It provides low-latency access to data, allowing applications to retrieve and store data quickly. Additionally, S3 offers features such as byte-range fetches and multi-part uploads to optimize performance for large objects and streaming workloads.
 
+---
+
+### 2) Step-by-step screenshot to upload static web application on the AWS cloud using S3 service
+
+- asdas
