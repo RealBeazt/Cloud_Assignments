@@ -26,5 +26,5 @@ Amazon Simple Storage Service (S3) is a widely-used object storage service provi
 ### 2) Step-by-step screenshot to upload static web application on the AWS cloud using S3 service
 
 - Login to AWS console and select S3 Service
-![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ab7b1146-332e-426a-a0fb-488c1b5f3a9b)
-
+  
+  ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ab7b1146-332e-426a-a0fb-488c1b5f3a9b)
