@@ -29,8 +29,15 @@ Terraform is an open-source infrastructure as code (IaC) tool developed by Hashi
 
 ### 3. Terraform script to create Infrastructure on any cloud platform (AWS or Azure or Google)
 
--  script to create 2 ec2 instances.
+-  Script to create 2 ec2 instances.
 
 ```
 
 ```
+
+-   Use `terraform init` command to initialize terraform.
+
+    ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/5eacb355-53d5-4272-b728-ad684bf2700d)
+
+-   Use `terraform apply` to apply those configurations.
+
