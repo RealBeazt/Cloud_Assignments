@@ -1,5 +1,5 @@
 # Assignment - 7
-## Shell Scripting
+## Deploy a web application using Docker
 
 >Name: Aman Narnaware
 >
@@ -8,5 +8,32 @@
 >Batch: B1
 >
 >PRN: 22110404
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/cdc54155-b793-4e7c-9b07-2eee763aadc6)
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/5e5ed9ae-30f5-414a-aef8-59ba8fd4be00)
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/36d8dd70-a3f5-407e-b0b2-3fcdcede9e23)
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/3f055e9c-7031-45ee-a45f-f23c67905a28)
+
+```
+FROM nginx:latest
+
+COPY ./index.html /usr/share/nginx/html/
+
+EXPOSE 80
+```
+Dockerfile
+
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/b038fe22-afa7-4bb0-89f8-3b52b6c6d978)
+
+
+
+
+
+
+
 
 
