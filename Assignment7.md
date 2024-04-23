@@ -29,6 +29,14 @@ Dockerfile
 
 ![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/b038fe22-afa7-4bb0-89f8-3b52b6c6d978)
 
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/841dc275-f97e-4b9a-877a-ccbad4f29bc6)
+
+![image](https://github.com/RealBeazt/Cloud_Assignments/assets/113709187/ccd383cc-4143-49b9-bc7d-05cf84016a77)
+
+
+
+
+
 
 
 
