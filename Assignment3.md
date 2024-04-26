@@ -29,4 +29,5 @@ Cloud computing refers to the delivery of computing services—including servers
 
 -  *Multi-Cloud:* Multi-cloud refers to the use of multiple cloud computing services from different providers. It involves distributing workloads across multiple clouds to avoid vendor lock-in, improve redundancy, and optimize performance and cost. Multi-cloud strategies often include a combination of public, private, and hybrid clouds, depending on the organization's requirements and preferences.
 
-### 3) Step-by-step screenshot to upload web application on the cloud (Please refer attached document if you want)
+### 3) Step-by-step screenshot to upload web application on the cloud 
+
